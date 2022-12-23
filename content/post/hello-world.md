@@ -26,6 +26,8 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
+
+commentable: true
 ---
 
 Welcome to my blog!
@@ -46,3 +48,5 @@ Until next time.
 
 
 *Note: this post is written by [ChatGPT](https://chat.openai.com/) with minor edits.*
+
+---

@@ -65,7 +65,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/ziyunli/Ziyun-Rocks'
+    url: 'https://github.com/ziyunli/ziyun.rocks'
     content_dir: content
     branch: main
   avatar:
@@ -79,10 +79,13 @@ features:
     commento:
       url: ''
     giscus:
-      repo: ''
+      repo: 'https://github.com/ziyunli/ziyun.rocks'
       repo_id: ''
-      category: ''
+      category: 'discussion'
       category_id: ''
+      theme: preferred_color_scheme
+      language_code: en
+      mapping: pathname
   search:
     provider: wowchemy
     algolia:
