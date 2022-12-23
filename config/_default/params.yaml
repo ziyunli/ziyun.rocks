@@ -72,20 +72,17 @@ features:
     gravatar: false
     shape: circle
   comment:
-    provider: ''
-    disqus:
-      shortname: ''
-      show_count: true
-    commento:
-      url: ''
+    provider: giscus
     giscus:
-      repo: 'https://github.com/ziyunli/ziyun.rocks'
-      repo_id: ''
-      category: 'discussion'
-      category_id: ''
-      theme: preferred_color_scheme
+      repo: ziyunli/ziyun.rocks
+      repo_id: R_kgDOIpQ1EA
+      category: General
+      category_id: DIC_kwDOIpQ1EM4CTOU4
+      label: comment
+      theme: light
       language_code: en
       mapping: pathname
+      reactions_enabled: 1
   search:
     provider: wowchemy
     algolia:
