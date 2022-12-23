@@ -13,7 +13,7 @@ baseURL: 'https://blog.ziyun.rocks' # Website URL
 cascade:
   # Blog post options
   - _target:
-      path: /post/**
+      path: /posts/**
     pager: true
     editable: true
     reading_time: true
