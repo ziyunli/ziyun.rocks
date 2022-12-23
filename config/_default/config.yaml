@@ -19,11 +19,11 @@ cascade:
     reading_time: true
     commentable: true
     show_related: true
-    show_breadcrumb: true
+    show_breadcrumb: false
     share: false
     header:
       navbar:
-        enable: false
+        enable: true
 
 ############################
 ## LANGUAGE
