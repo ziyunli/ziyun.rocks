@@ -7,9 +7,7 @@ categories: [papers]
 
 Recently, I started a study group to work through the famous [MIT 6.824: Distributed Systems](https://pdos.csail.mit.edu/6.824/schedule.html) together with some friends. The course includes a number of readings that are closely related to the labs. Instead of simply skimming through the papers, this time I decide to write a review for each paper, similar to  [the morning paper](https://blog.acolyer.org/) style. Given this is an after work side-project, maybe I should call them the late night paper?
 
-Anyway, without further ado, let's jump into the first paper.
-
-Dean, Jeffrey, and Sanjay Ghemawat. 2008. “MapReduce: Simplified Data Processing on Large Clusters.” _Communications of the ACM_ 51 (1): 107–13. [https://doi.org/10.1145/1327452.1327492](https://doi.org/10.1145/1327452.1327492).
+Anyway, without further ado, let's jump into the first paper about MapReduce[^1].
 
 # What
 
@@ -81,3 +79,5 @@ Given its importance, you might think the MapReduce system provides fault tolera
 > It is easy to make the master write periodic checkpoints of the master data structures described above... However, given that there is only a single master, its failure is unlikely; therefore our current implementation aborts the MapReduce computation if the master fails.
 
 I appreciate their pragmatic approach here a lot. It's tempting to implement a "perfect" fault-tolerant system, and it's not that hard to support fault tolerant to the coordinator. But the probability of this happens is so low that the gain is extremely marginal. It's best to just keep the system simple.
+
+[^1]: Dean, Jeffrey, and Sanjay Ghemawat. 2008. “MapReduce: Simplified Data Processing on Large Clusters.” _Communications of the ACM_ 51 (1): 107–13. [https://doi.org/10.1145/1327452.1327492](https://doi.org/10.1145/1327452.1327492).

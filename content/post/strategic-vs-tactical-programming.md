@@ -5,7 +5,7 @@ tags: [software-engineering]
 categories: [notes]
 ---
 
-I am reading [A Philosophy of Software Design by John Ousterhout](https://www.goodreads.com/en/book/show/39996759), and the chapter 3 about strategic vs. tactical programming resonates a lot with me.
+I am reading [A Philosophy of Software Design](https://www.goodreads.com/en/book/show/39996759) by John Ousterhout, and the chapter 3 about strategic vs. tactical programming resonates a lot with me.
 
 <!--more-->
 

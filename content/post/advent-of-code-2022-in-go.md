@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "2022 Advent of Code in Go"
+title: "Advent of Code 2022 in Go"
 subtitle: ""
 tags: [golang]
 categories: [notes]
