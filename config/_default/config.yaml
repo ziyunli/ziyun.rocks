@@ -19,7 +19,7 @@ cascade:
     reading_time: true
     commentable: true
     show_related: true
-    show_breadcrumb: false
+    show_breadcrumb: true
     share: false
     header:
       navbar:
