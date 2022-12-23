@@ -65,7 +65,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/ziyunli/ziyun.rocks'
+    url: 'https://github.com/ziyunli/Ziyun-Rocks'
     content_dir: content
     branch: main
   avatar:
