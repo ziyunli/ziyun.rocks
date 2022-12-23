@@ -3,8 +3,6 @@
 
 title: "2022 Advent of Code in Go"
 subtitle: ""
-summary: ""
-authors: []
 tags: [golang]
 categories: [notes]
 date: 2022-12-22T18:54:24-08:00
@@ -28,7 +26,7 @@ image:
 projects: ["Advent of Code 2022"]
 ---
 
-In this year of [Advent of Code](https://adventofcode.com/2022) (AoC), I decide to use Go. Here's the [Github repository](https://github.com/ziyunli/adventofcode-go) as reference. The page collects the TILs during the process.
+In this year of [Advent of Code](https://adventofcode.com/2022) (AoC), I decide to use Go a try. Here collects the TILs during the process.
 
 <!--more-->
 

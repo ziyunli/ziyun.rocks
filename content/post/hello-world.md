@@ -2,10 +2,6 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Hello World"
-subtitle: ""
-summary: ""
-authors: []
-tags: []
 categories: [articles]
 date: 2022-12-22T17:34:19-08:00
 lastmod: 2022-12-22T17:34:19-08:00
@@ -29,7 +25,6 @@ projects: []
 
 commentable: true
 ---
-
 Welcome to my blog!
 
 <!--more-->
