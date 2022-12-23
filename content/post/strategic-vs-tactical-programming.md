@@ -2,7 +2,7 @@
 title: "Strategic vs Tactical Programming"
 date: 2021-06-18
 tags: [software-engineering]
-categories: [notes]
+categories: [articles]
 ---
 
 I am reading [A Philosophy of Software Design](https://www.goodreads.com/en/book/show/39996759) by John Ousterhout, and the chapter 3 about strategic vs. tactical programming resonates a lot with me.
