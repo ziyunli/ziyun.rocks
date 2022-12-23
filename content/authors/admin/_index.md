@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Ziyun Li (李子云)
+title: Ziyun Li (李子雲)
 
 # Is this the primary user of the site?
 superuser: true
