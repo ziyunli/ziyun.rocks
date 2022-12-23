@@ -72,7 +72,7 @@ features:
     gravatar: false
     shape: circle
   comment:
-    provider: ''
+    provider: giscus
     giscus:
       repo: ziyunli/ziyun.rocks
       repo_id: R_kgDOIpQ1EA
