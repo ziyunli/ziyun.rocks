@@ -6,9 +6,8 @@ subtitle: ""
 tags: [golang]
 categories: [notes]
 date: 2022-12-22T18:54:24-08:00
-lastmod: 2022-12-22T18:54:24-08:00
 featured: false
-draft: true
+draft: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

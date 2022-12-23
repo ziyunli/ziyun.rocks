@@ -4,7 +4,6 @@
 title: "Hello World"
 categories: [articles]
 date: 2022-12-22T17:34:19-08:00
-lastmod: 2022-12-22T17:34:19-08:00
 featured: false
 draft: false
 
