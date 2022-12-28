@@ -9,7 +9,7 @@ Notes from watching Daniel Gross's [How To Go From Idea To Series A](https://www
 
 <!--more-->
 
-{{ youtube(id="kXFzRdzKMMI") }}
+{{< youtube kXFzRdzKMMI >}}
 
 # Step 1: Start
 ## The Dark Age: The Idea
