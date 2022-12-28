@@ -13,3 +13,6 @@ main:
   - name: Posts
     url: posts/
     weight: 30
+  - name: tags
+    url: tags/
+    weight: 40
