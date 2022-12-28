@@ -19,7 +19,7 @@ In this year of [Advent of Code](https://adventofcode.com/2022) (AoC), I decide 
 
 I used Tim Hockin's [go-build-template](https://github.com/thockin/go-build-template) as the reference to start the project. There is another [Standard Go Project Layout](https://github.com/golang-standards/project-layout) that seems totally overkill for Advent of Code, but could be useful when building a real application. Below is how the project looks.
 
-```shell
+```bash
 % exa -T                                                                                                                                                                                                                                                               (main)
 .
 ├── cmd

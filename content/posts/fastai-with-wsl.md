@@ -39,7 +39,7 @@ It's mostly following the [official guide](https://docs.nvidia.com/cuda/wsl-user
 
 You can find older CUDA Toolkit at the [CUDA Toolkit Archive](https://developer.nvidia.com/cuda-toolkit-archive). Make sure you select `WSL-Ubuntu` as the Distribution. I went for the [CUDA 11.6.1 version](https://developer.nvidia.com/cuda-11-6-1-download-archive?target_os=Linux&target_arch=x86_64&Distribution=WSL-Ubuntu&target_version=2.0&target_type=deb_local), and installed with the following instructions.
 
-```
+```bash
 sudo apt-key del 7fa2af80
 wget https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/cuda-wsl-ubuntu.pin
 sudo mv cuda-wsl-ubuntu.pin /etc/apt/preferences.d/cuda-repository-pin-600
@@ -54,20 +54,20 @@ sudo apt-get -y install cuda
 
 I used [Miniconda](https://docs.conda.io/en/latest/miniconda.html) and [Mamba](https://mamba.readthedocs.io/en/latest/installation.html) to manage my Python environment. Once you have them installed, create a new environment for fastai.
 
-```
+```bash
 conda create -n fastai
 conda activate fastai
 ```
 
 I installed PyTorch first to quickly test if CUDA is working correctly.
 
-```
+```bash
 mamba install pytorch torchvision torchaudio cudatoolkit=11.6 -c pytorch -c conda-forge
 ```
 
 Once PyTorch is installed, open a Python console and run the following.
 
-```
+```bash
 % python
 Python 3.10.6 | packaged by conda-forge | (main, Aug 22 2022, 20:35:26) [GCC 10.4.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
@@ -79,6 +79,6 @@ True
 
 It looks like it's working! Then I proceeded to install fastai.
 
-```
+```bash
  mamba install -c fastchan fastai
 ```
