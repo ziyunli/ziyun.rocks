@@ -1,6 +1,4 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
 title: "Setting up fastai on Windows with WSL2"
 tags: []
 categories: [tutorials]

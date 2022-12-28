@@ -1,7 +1,7 @@
 ---
 title: "Paper review: MapReduce"
 date: 2022-06-20
-tags: [system-design]
+tags: [systems]
 categories: [papers]
 ---
 

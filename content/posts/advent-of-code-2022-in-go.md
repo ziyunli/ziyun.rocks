@@ -1,6 +1,4 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
 title: "Learning Go with Advent of Code 2022"
 subtitle: ""
 tags: [golang]
