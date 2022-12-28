@@ -5,6 +5,8 @@ tags: [books]
 categories: [notes]
 ---
 
+Notes from reading [Deep Work](https://www.goodreads.com/book/show/25744928-deep-work).
+
 <!--more-->
 
 # Why
