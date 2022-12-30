@@ -57,6 +57,18 @@ const foo =
   \\world!
 ```
 
+## Enums
+
+```zig
+const Fruit = enum{ apple, pear, orange };
+```
+
+## Structs
+
+## Pointers
+
+
+
 # Conditions
 
 ## If
