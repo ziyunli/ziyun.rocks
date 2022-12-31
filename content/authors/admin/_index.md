@@ -82,6 +82,6 @@ Besides work, I also work on side projects from time to time.
 
 ---
 
-You can also find me on [GitHub](https://github.com/ziyunli), [Twitter](https://twitter.com/ziyun_li), [LinkedIn](https://www.linkedin.com/in/stephen-ziyun-li-b1488425/), and [Goodreads](https://www.goodreads.com/user/show/38527571-ziyun).
+You can also find me on [GitHub](https://github.com/ziyunli), [Twitter](https://twitter.com/ziyun_li), [LinkedIn](https://www.linkedin.com/in/ziyun-li-b1488425/), and [Goodreads](https://www.goodreads.com/user/show/38527571-ziyun).
 
 *I love hearing about cool technology, interesting projects, and new business ideas. If you have any of these, let's talk!*
