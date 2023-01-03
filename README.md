@@ -6,4 +6,4 @@
 
 ## The 'giscus' comment provider was not found.
 
-Use `	github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.7.0 ` instead of `	github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.6.0 ` in `go.mod`.
+Use `github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.7.0` instead of `github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.6.0` in `go.mod`.
