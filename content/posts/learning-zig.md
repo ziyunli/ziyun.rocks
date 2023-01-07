@@ -1,5 +1,5 @@
 ---
-title: "Learning Zig"
+title: "Learning Zig with Ziglings"
 tags: [zig]
 categories: [TILs]
 date: 2022-12-27
