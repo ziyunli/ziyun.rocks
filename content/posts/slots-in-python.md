@@ -1,7 +1,7 @@
 ---
 title: __slots__ in Python
 date: 2017-04-14
-tags: [python]
+tags: [Python]
 categories: [TILs]
 ---
 

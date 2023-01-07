@@ -1,8 +1,8 @@
 ---
 title: "Self-hosting ArchiveBox on a VPS"
 date: 2021-04-24T22:16:31-04:00
-tags: [vps]
-categories: [tutorials]
+tags: [VPS]
+categories: [Tutorials]
 ---
 
 Note: this article is edited and published at [Vultr Docs](https://www.vultr.com/docs/install-archivebox-on-a-oneclick-docker-application)

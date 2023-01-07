@@ -1,7 +1,7 @@
 ---
 title: "Setting up fastai on Windows with WSL2"
-tags: []
-categories: [tutorials]
+tags: [Fast.ai, WSL]
+categories: [Tutorials]
 date: 2022-09-21
 featured: false
 draft: false
