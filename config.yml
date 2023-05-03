@@ -72,15 +72,15 @@ params:
   #       url: tags
 
   # home-info mode
-  homeInfoParams:
-    Title: "Mostly break things"
-    Content: ...and occasionally move fast
+  # homeInfoParams:
+  #   Title: "Mostly break things"
+  #   Content: ...and occasionally move fast
 
-  socialIcons:
-    - name: twitter
-      url: "https://twitter.com/ziyun_li"
-    - name: github
-      url: "https://github.com/ziyunli"
+  # socialIcons:
+  #   - name: twitter
+  #     url: "https://twitter.com/ziyun_li"
+  #   - name: github
+  #     url: "https://github.com/ziyunli"
 
   # analytics:
   #   google:
