@@ -30,7 +30,7 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -52,7 +52,7 @@ params:
     safari_pinned_tab: "icon.png"
 
   label:
-    text: "Home"
+    text: "子雲 🤘"
     icon: "icon.png"
     iconHeight: 35
 
@@ -73,8 +73,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Ziyun Li (李子雲)"
-    Content: Howdy!
+    Title: "Mostly break things"
+    Content: ...and occasionally move fast
 
   socialIcons:
     - name: twitter
