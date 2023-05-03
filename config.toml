@@ -1,4 +1,0 @@
-# Workaround Hugo security policy
-# https://discourse.gohugo.io/t/error-unknown-command-go/40761
-[security.exec]
-osEnv = ['.*']
