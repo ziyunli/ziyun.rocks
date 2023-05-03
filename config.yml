@@ -1,6 +1,6 @@
 baseURL: 'https://blog.ziyun.rocks'
 title: 子雲 🤘
-paginate: 5
+paginate: 10
 theme: PaperMod
 
 enableRobotsTXT: true
