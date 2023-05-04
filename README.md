@@ -27,9 +27,3 @@ git submodule update --init --recursive
 ```sh
 hugo server --bind 192.168.50.114 --baseURL http://192.168.50.114 --port 8080
 ```
-
-## Trouble Shooting
-
-### The 'giscus' comment provider was not found.
-
-Use `github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.7.0` instead of `github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5 v5.6.0` in `go.mod`.
