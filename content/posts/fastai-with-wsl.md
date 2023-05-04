@@ -1,12 +1,12 @@
 ---
-title: "fastai on WSL2"
+title: "Setup fastai in WSL2"
 tags: [WSL]
 categories: [Tutorials]
 date: 2022-09-21
 draft: false
 ---
 
-Here I put down the final steps to get PyTorch and fastai working with CUDA support in WSL2. It's mostly following the [NVIDIA guide](https://docs.nvidia.com/cuda/wsl-user-guide/index.html#getting-started-with-cuda-on-wsl). But if there is only one thing I can suggest: make sure your environment is **using the same CUDA version everywhere**. Consistency turns out to be the key here!
+Steps to get PyTorch and fastai working with CUDA support in WSL2.
 
 <!--more-->
 
@@ -14,7 +14,7 @@ Lately, I have been working on [the deep learning course from fast.ai](https://c
 
 But then on last weekend, I suddenly remembered I do have a Windows PC sitting around! It's a Dell G5 (please don't judge) which I got during the pandemic lock down to play some League of Legends with friends, but I haven't been using it a lot since this year. It comes with an NVIDIA GeForce 1660 Super. Not the most powerful GPU, but should be better than using CPU. It also looks like I can just use WSL2 to create a Linux-based development environment while still keep my Windows around for video games. This really sounds like the best of both worlds!
 
-After two days of mucking around, I finally got it working. It is longer than I expected, and I definite forgot getting a development environment set up with Windows and Python can be quite tricky sometimes!
+After two days of mucking around, I finally got it working. It's mostly following the [NVIDIA guide](https://docs.nvidia.com/cuda/wsl-user-guide/index.html#getting-started-with-cuda-on-wsl). It is longer than I expected, and I definite forgot getting a development environment set up with Windows and Python can be quite tricky sometimes! But if there is only one thing I can suggest: make sure your environment is **using the same CUDA version everywhere**. Consistency turns out to be the key here!
 
 # Install WSL
 
