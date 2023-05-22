@@ -1,5 +1,5 @@
 baseURL: 'https://blog.ziyun.rocks'
-title: 子雲 🤘
+title: 子雲
 paginate: 10
 theme: PaperMod
 
@@ -16,7 +16,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: 子雲 🤘
+  title: 子雲
   description: "Just another blog. "
   keywords: [Blog, Portfolio, PaperMod]
   # author: Ziyun
@@ -52,7 +52,7 @@ params:
     safari_pinned_tab: "icon.png"
 
   label:
-    text: "子雲 🤘"
+    text: "子雲"
     icon: "icon.png"
     iconHeight: 35
 
