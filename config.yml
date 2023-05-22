@@ -45,15 +45,15 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "icon.png"
-    favicon16x16: "icon.png"
-    favicon32x32: "icon.png"
-    apple_touch_icon: "icon.png"
-    safari_pinned_tab: "icon.png"
+    favicon: "favicon.svg"
+    favicon16x16: "favicon.svg"
+    favicon32x32: "favicon.svg"
+    apple_touch_icon: "favicon.svg"
+    safari_pinned_tab: "favicon.svg"
 
   label:
     text: "子雲"
-    icon: "icon.png"
+    icon: "favicon.svg"
     iconHeight: 35
 
   # profile-mode
