@@ -4,7 +4,6 @@ subtitle: ""
 tags: [Golang]
 categories: [TILs]
 date: 2022-12-22T18:54:24-08:00
-featured: false
 draft: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Learning Zig with Ziglings"
 tags: [Zig]
-categories: [TILs]
+categories: [TIL]
 date: 2022-12-27
 draft: true
 ---

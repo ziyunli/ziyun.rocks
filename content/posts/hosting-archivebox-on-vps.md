@@ -1,8 +1,8 @@
 ---
 title: "Self-hosting ArchiveBox on a VPS"
 date: 2021-04-24T22:16:31-04:00
-tags: [VPS]
-categories: [Tutorials]
+tags: [VPS, ArchiveBox, Docker, Caddy]
+categories: [Article]
 ---
 
 Note: this article is edited and published at [Vultr Docs](https://www.vultr.com/docs/install-archivebox-on-a-oneclick-docker-application)
@@ -41,16 +41,16 @@ curl -O 'https://raw.githubusercontent.com/ArchiveBox/ArchiveBox/master/docker-c
 
 ```yaml
 archivebox:
-  image: ${DOCKER_IMAGE:-archivebox/archivebox:latest}
-  command: server --quick-init 0.0.0.0:8000
-  ports:
-      - 8000:8000
-  restart: always
-  environment:
-      - ALLOWED_HOSTS=*
-      - MEDIA_MAX_SIZE=750m
-  volumes:
-      - ./data:/data.
+    image: ${DOCKER_IMAGE:-archivebox/archivebox:latest}
+        command: server --quick-init 0.0.0.0:8000
+    ports:
+        - 8000:8000
+    restart: always
+    environment:
+        - ALLOWED_HOSTS=*
+        - MEDIA_MAX_SIZE=750m
+    volumes:
+        - ./data:/data.
 ```
 
 5. Run the initial setup and create an admin user. You will use this admin user to create bookmarks in ArchiveBox.

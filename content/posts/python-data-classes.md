@@ -1,7 +1,7 @@
 ---
 title: "Data Classes in Python"
 tags: [Python]
-categories: [TILs]
+categories: [TIL]
 date: 2022-08-17
 featured: false
 draft: false

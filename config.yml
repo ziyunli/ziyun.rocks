@@ -27,9 +27,9 @@ params:
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
@@ -112,6 +112,14 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 5
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 10
     - identifier: categories
       name: categories
       url: /categories/
@@ -119,7 +127,7 @@ menu:
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 20
+      weight: 10
     # - identifier: example
     #   name: example.org
     #   url: https://example.org
