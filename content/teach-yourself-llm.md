@@ -3,7 +3,7 @@ title: "Teach Yourself LLM"
 layout: "page"
 url: "/llm/"
 summary: Teach Yourself LLM
-draft: true
+draft: false
 ---
 
 # Neural Networks
