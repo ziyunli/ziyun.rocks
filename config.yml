@@ -36,7 +36,7 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: true
+  comments: false
   hidemeta: false
   hideSummary: true
   showtoc: false
@@ -77,8 +77,8 @@ params:
   #   Content: ...and occasionally move fast
 
   # socialIcons:
-  #   - name: twitter
-  #     url: "https://twitter.com/ziyun_li"
+  #   - name: mastodon
+  #     url: "https://fedi.ziyun.rocks/@ziyun"
   #   - name: github
   #     url: "https://github.com/ziyunli"
 
