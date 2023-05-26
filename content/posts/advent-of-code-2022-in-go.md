@@ -2,7 +2,7 @@
 title: "Learning Go with Advent of Code 2022"
 subtitle: ""
 tags: [Golang]
-categories: [TILs]
+categories: [TIL]
 date: 2022-12-22T18:54:24-08:00
 draft: true
 ---
