@@ -13,7 +13,7 @@ It's wonderful. While it is heavily oriented towards academia, I believe the pri
 
 <!--more-->
 
-{{ youtube(id="Unzc731iCUY") }}
+{{< youtube Unzc731iCUY >}}
 
 # How to Start
 
