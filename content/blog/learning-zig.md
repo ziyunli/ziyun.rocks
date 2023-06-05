@@ -1,10 +1,22 @@
 ---
-title: "Learning Zig with Ziglings"
+title: "Learning Zig"
 tags: [Zig]
-categories: [TIL]
+categories: [Tutorial]
 date: 2022-12-27
 draft: true
 ---
+
+# Installation
+
+Zig is moving fast, so I do not recommend to install it from the package manager (e.g. homebrew, nix, etc.) as they are usually lagged behind.
+Instead, follow what [zigleanr](https://ziglearn.org/#installation) suggests, download the latest master build from https://ziglang.org/download/ and put it in your `$PATH`.
+Note that you want to put the entire directory in your `$PATH` instead of the binary itself, otherwise you will get an error like this:
+
+```
+error: unable to find zig installation directory '/usr/local/bin/zig': FileNotFound
+```
+
+# Getting Started
 
 [ziglings](https://github.com/ziyunli/ziglings)
 

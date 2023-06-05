@@ -1,7 +1,6 @@
 ---
 title: "Re-rank Brave search results using goggles"
 tags: ["Search Engine"]
-categories: [TIL]
 date: 2022-08-26
 draft: false
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Open Ruby Gem in an Editor"
 tags: [Ruby]
-categories: [TIL]
 date: 2022-08-02
 draft: false
 ---
