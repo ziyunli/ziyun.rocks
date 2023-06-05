@@ -1,8 +1,6 @@
 ---
 title: "How To Go From Idea To Series A"
-layout: "page"
 tags: [Startup]
-categories: [Note]
 date: 2022-08-17
 draft: false
 ---

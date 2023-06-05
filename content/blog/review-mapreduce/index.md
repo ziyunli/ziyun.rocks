@@ -2,7 +2,6 @@
 title: "Paper review: MapReduce"
 date: 2022-06-20
 tags: ["System Engineering"]
-categories: ["Paper Review"]
 ---
 
 Recently, I started a study group to work through the famous [MIT 6.824: Distributed Systems](https://pdos.csail.mit.edu/6.824/schedule.html) together with some friends. The course includes a number of readings that are closely related to the labs. Instead of simply skimming through the papers, this time I decide to write a review for each paper, similar to  [the morning paper](https://blog.acolyer.org/) style. Given this is an after work side-project, maybe I should call them the late night paper?

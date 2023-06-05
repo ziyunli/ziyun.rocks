@@ -2,7 +2,6 @@
 title: "如何快速学习"
 layout: "page"
 tags: [Self Help]
-categories: [Note]
 date: 2018-04-14
 draft: false
 ---

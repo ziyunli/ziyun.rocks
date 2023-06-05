@@ -1,8 +1,6 @@
 ---
 title: "From Teaching Leadership to Being a Leader"
-layout: "page"
 tags: [Leadership]
-categories: [Note]
 date: 2018-04-08
 draft: false
 ---

@@ -1,10 +1,7 @@
 ---
 title: "Data Classes in Python"
 tags: [Python]
-categories: [TIL]
 date: 2022-08-17
-featured: false
-draft: false
 ---
 
 `dataclass` decorator is introduced since Python 3.7.

@@ -1,7 +1,6 @@
 ---
 title: "Her Story"
 tags: [Video Game]
-categories: [Article]
 date: 2015-12-27
 draft: false
 ---

@@ -1,8 +1,6 @@
 ---
 title: "How to Speak"
-layout: "page"
 tags: [Self Help]
-categories: [Note]
 date: 2020-12-29
 draft: false
 ---
