@@ -1,10 +1,3 @@
----
-title: "About"
-layout: "page"
-url: "/about/"
-summary: about
----
-
 Howdy!
 
 I am Ziyun Li (a.k.a 李子雲), and I also go by Stephen. I am an electrical engineer turned software engineer.
