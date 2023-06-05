@@ -4,5 +4,5 @@ layout: "page"
 summary: "Notes from Comprehensive Rust"
 tags: [Rust]
 categories: [Note]
-draft: false
+draft: true
 ---
