@@ -2,6 +2,8 @@
 title: "Data Classes in Python"
 tags: [Python]
 date: 2022-08-17
+
+type: "blog"
 ---
 
 `dataclass` decorator is introduced since Python 3.7.

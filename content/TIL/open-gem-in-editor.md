@@ -3,6 +3,8 @@ title: "Open Ruby Gem in an Editor"
 tags: [Ruby]
 date: 2022-08-02
 draft: false
+
+type: "blog"
 ---
 
 [bundle open](https://bundler.io/man/bundle-open.1.html) opens a gem in an editor. This is useful when you need to look into the source code of a gem that your application depends on.

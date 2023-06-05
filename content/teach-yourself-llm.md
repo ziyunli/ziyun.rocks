@@ -1,8 +1,6 @@
 ---
 title: "Teach Yourself LLM"
-layout: "page"
 url: "/llm/"
-summary: Teach Yourself LLM
 draft: false
 ---
 

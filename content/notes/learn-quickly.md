@@ -1,9 +1,10 @@
 ---
 title: "如何快速学习"
-layout: "page"
 tags: [Self Help]
 date: 2018-04-14
 draft: false
+
+type: "blog"
 ---
 
 加速理解的两种途径:

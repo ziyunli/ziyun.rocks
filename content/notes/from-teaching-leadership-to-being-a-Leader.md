@@ -3,6 +3,8 @@ title: "From Teaching Leadership to Being a Leader"
 tags: [Leadership]
 date: 2018-04-08
 draft: false
+
+type: "blog"
 ---
 
 Advices from Andy Rachleff (president and CEO of Wealthfront)
