@@ -1,10 +1,8 @@
 ---
 title: "Practical Deep Learning"
 summary: "Practical Deep Learning for Coders"
-tags: [Deep Learning, Course]
+tags: [Deep Learning, Notes]
 draft: true
-
-type: "blog"
 ---
 
 # 2. Deployment

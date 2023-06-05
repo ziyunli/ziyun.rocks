@@ -1,10 +1,8 @@
 ---
 title: "macOS notarization"
-tags: ["Search Engine"]
+tags: ["Search Engine", TIL]
 date: 2022-08-26
 draft: false
-
-type: "blog"
 ---
 
 

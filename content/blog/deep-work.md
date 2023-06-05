@@ -1,10 +1,8 @@
 ---
 title: "Deep Work"
-tags: [Self Help]
+tags: [Self Help, Notes]
 date: 2018-04-29
 draft: false
-
-type: "blog"
 ---
 
 # Why
