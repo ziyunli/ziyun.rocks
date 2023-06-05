@@ -2,7 +2,6 @@
 title: "Self-hosting ArchiveBox on a VPS"
 date: 2021-04-24T22:16:31-04:00
 tags: [VPS, ArchiveBox, Docker, Caddy]
-categories: [Article]
 ---
 
 Note: this article is edited and published at [Vultr Docs](https://www.vultr.com/docs/install-archivebox-on-a-oneclick-docker-application)

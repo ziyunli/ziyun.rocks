@@ -1,7 +1,6 @@
 ---
 title: "Setup fastai in WSL2"
 tags: [WSL]
-categories: [Article]
 date: 2022-09-21
 draft: false
 ---

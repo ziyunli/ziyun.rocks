@@ -3,6 +3,8 @@ title: "Re-rank Brave search results using goggles"
 tags: ["Search Engine"]
 date: 2022-08-26
 draft: false
+
+type: "blog"
 ---
 
 Goggles allow you to alter the ranking of Brave search by using rules and filters[^1].

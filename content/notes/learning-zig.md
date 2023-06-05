@@ -1,9 +1,10 @@
 ---
 title: "Learning Zig"
 tags: [Zig]
-categories: [Tutorial]
 date: 2022-12-27
 draft: true
+
+type: "blog"
 ---
 
 # Installation
