@@ -6,7 +6,7 @@ baseURL = "https://blog.ziyun.rocks"
 theme = 'hugo-bearblog'
 
 # Basic metadata configuration for your blog.
-title = "😶‍🌫️ 子雲"
+title = "子雲"
 author = "Ziyun Li"
 copyright = "Copyright © 2013, Ziyun Li."
 languageCode = "en-US"
