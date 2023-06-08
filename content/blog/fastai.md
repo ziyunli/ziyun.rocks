@@ -1,7 +1,7 @@
 ---
 title: "Practical Deep Learning"
 summary: "Practical Deep Learning for Coders"
-tags: [Deep Learning, Notes]
+tags: [Deep Learning, Notes, Book, Course]
 draft: true
 ---
 
