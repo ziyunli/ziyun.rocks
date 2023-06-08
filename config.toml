@@ -14,6 +14,12 @@ languageCode = "en-US"
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
 
+enableGitInfo = true
+
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = ["lastmod", ":git", "date", "publishDate"]
+
 # Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
