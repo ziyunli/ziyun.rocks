@@ -24,7 +24,7 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 [permalinks]
-  blog = "/blog/:year/:slug/"
+  blog = "/blog/:year/:filename/"
   tags = "/blog/:slug"
 
 [params]
