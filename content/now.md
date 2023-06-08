@@ -3,9 +3,9 @@ title = "Now"
 menu = "main"
 +++
 
-__Inspired by https://sive.rs/now, this documents what I've been focused on at the moment.__
+Inspired by https://sive.rs/now, this documents what I've been focused on at the moment.
 
-__Last update: 2023-06-07__
+*Last update: 2023-06-07*
 
 # Family
 
