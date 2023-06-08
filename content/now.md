@@ -3,7 +3,7 @@ title = "Now"
 menu = "main"
 +++
 
-Inspired by https://sive.rs/now, this documents what I've been focused on at the moment.
+Inspired by https://sive.rs/now, this page tracks what I've been focused on at the moment.
 
 <!--more-->
 
