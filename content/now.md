@@ -37,6 +37,6 @@ So far I have been relatively steady in my progress. Keep it up!
 
 ## Reading
 
-  [Deep Learning for Coders with Fastai and Pytorch](https://www.goodreads.com/book/show/50204643-deep-learning-for-coders-with-fastai-and-pytorch)
-- [人类灭绝](https://www.goodreads.com/book/show/150283051)
-- [未来简史](https://www.goodreads.com/book/show/36183830)
+* [Deep Learning for Coders with Fastai and Pytorch](https://www.goodreads.com/book/show/50204643-deep-learning-for-coders-with-fastai-and-pytorch)
+* [人类灭绝](https://www.goodreads.com/book/show/150283051)
+* [未来简史](https://www.goodreads.com/book/show/36183830)
