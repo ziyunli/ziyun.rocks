@@ -10,7 +10,7 @@ Inspired by https://sive.rs/now, this page tracks what I've been focused on at t
 ## Family
 
 We welcomed our second child early this year in February!
-I have been spending a lot of quality family time with my family since then, and it has been great!
+I have been spending a lot of quality time with my family since then which is great!
 At the same time, I have been super busy every single day whether it's weekday or weekend.
 
 My daily schedule looks like this:
@@ -36,8 +36,6 @@ But the thing is there are so many readings, and the field is moving at a neck-b
 So far I have been relatively steady in my progress. Keep it up!
 
 ## Reading
-
-### WIP
 
   [Deep Learning for Coders with Fastai and Pytorch](https://www.goodreads.com/book/show/50204643-deep-learning-for-coders-with-fastai-and-pytorch)
 - [人类灭绝](https://www.goodreads.com/book/show/150283051)
