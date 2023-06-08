@@ -5,6 +5,8 @@ menu = "main"
 
 __Inspired by https://sive.rs/now, this documents what I've been focused on at the moment.__
 
+__Last update: 2023-06-07__
+
 # Family
 
 We welcomed our second child early this year in February!
