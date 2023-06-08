@@ -44,8 +44,8 @@ So far I have been relatively steady in my progress. Keep it up!
   - [ ] [4: Natural Language (NLP)](https://course.fast.ai/Lessons/lesson4.html)
 
 ### Prompt engineering
+- [x] [DLAI: ChatGPT Prompt Engineering for Developers](https://learn.deeplearning.ai/chatgpt-prompt-eng)
 - [x] [Brex's Prompt Engineering Guide](https://github.com/brexhq/prompt-engineering/blob/main/README.md)
-- [ ] [DLAI: ChatGPT Prompt Engineering for Developers](https://learn.deeplearning.ai/chatgpt-prompt-eng)
 - [ ] [Prompt Engineering Guide](https://www.promptingguide.ai/)
 - [ ] [Learn Prompting](https://learnprompting.org/)
 
