@@ -1,6 +1,6 @@
 ---
-title: "Learning Zig"
-tags: [Zig, Notes]
+title: "Notes about Learning Zig"
+tags: ["notes", "zig"]
 date: 2022-12-27
 draft: true
 ---

@@ -1,7 +1,7 @@
 +++
-title = "人类简史"
+title = "Notes: 人类简史"
 date = "2023-06-07T22:48:03-07:00"
-tags = ["Book", "History"]
+tags = ["notes", "book", "history"]
 draft = true
 +++
 

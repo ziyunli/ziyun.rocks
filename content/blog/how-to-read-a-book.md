@@ -1,6 +1,6 @@
 ---
-title: "如何阅读一本书"
-tags: [Self Help, Notes]
+title: "Notes: 如何阅读一本书"
+tags: ["notes", "book", "self help"]
 date: 2018-01-18
 draft: false
 ---

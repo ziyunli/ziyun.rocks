@@ -1,6 +1,6 @@
 ---
-title: "From Teaching Leadership to Being a Leader"
-tags: [Leadership, Notes]
+title: "Notes: From Teaching Leadership to Being a Leader"
+tags: ["notes", "podcast", "leadership"]
 date: 2018-04-08
 draft: false
 ---

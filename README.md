@@ -16,7 +16,7 @@ git checkout tags/v7.0
 ### After clone
 
 ```sh
-cd themes/PaperMod
+cd themes/hugo-bearblog
 git submodule update --init --recursive
 ```
 

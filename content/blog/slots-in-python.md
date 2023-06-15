@@ -1,7 +1,7 @@
 ---
 title: __slots__ in Python
 date: 2017-04-14
-tags: [Python, TIL]
+tags: ["til", "python"]
 ---
 
 今天在公司内部交流会上聊到了我们Python后端代码中的一个小问题：在一小段代码中，我们遍历了所有的"item"，然后选了一个ID，把每个"item"都塞进了一个dict里面。
