@@ -1,5 +1,5 @@
 ---
-title: "Notes: 如何快速学习"
+title: "如何快速学习"
 tags: ["notes", "self help"]
 date: 2018-04-14
 draft: false

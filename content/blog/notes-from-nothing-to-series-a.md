@@ -1,5 +1,5 @@
 ---
-title: "Notes: How To Go From Idea To Series A"
+title: "How To Go From Idea To Series A"
 tags: ["notes", "startup"]
 date: 2022-08-17
 draft: false

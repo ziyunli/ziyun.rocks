@@ -1,5 +1,5 @@
 ---
-title: "Notes: Practical Deep Learning"
+title: "Practical Deep Learning"
 tags: ["notes", "course", "deep learning"]
 draft: true
 ---

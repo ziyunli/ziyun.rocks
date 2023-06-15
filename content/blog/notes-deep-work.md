@@ -1,5 +1,5 @@
 ---
-title: "Reading notes: Deep Work"
+title: "Deep Work"
 tags: ["notes", "book", "self help"]
 date: 2018-04-29
 draft: false
