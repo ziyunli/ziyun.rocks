@@ -63,9 +63,9 @@ I think the same seed also generates relatively similar images. For example, bel
 You can definitely relate to the previous two images in terms of the overall style.
 
 > light, futobot, cyborg, ((masterpiece),(best quality),(ultra-detailed), (upper body:1.2), 1male, solo, hood up, upper body, mask, facing camera, male focus, cloak, spaceship, lightning, ultra realistic details, portrait, global illumination, shadows, octane render, 8k, ultra sharp,intricate, ornaments detailed, cold colors, metal, egypician detail, highly intricate details, realistic light, trending on cgsociety, neon details, time travel, broken mirror
-
+>
 > Negative prompt: ugly, disfigured, low quality, blurry
-
+>
 > Steps: 50, Sampler: DPM++ 2M Karras, CFG scale: 7, Seed: 3502696068, Size: 768x768, Model hash: e3edb8a26f, Model: ghostmix_v20Bakedvae, Denoising strength: 0.75, ControlNet: "preprocessor: depth_leres++, model: control_v11f1p_sd15_depth [cfd03158], weight: 1, starting/ending: (0, 1), resize mode: Crop and Resize, pixel perfect: False, control mode: ControlNet is more important, preprocessor params: (512, 0, 0)", Version: v1.3.2
 
 ![Same seed](./seed-3502696068.png)
