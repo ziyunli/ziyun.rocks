@@ -1,6 +1,6 @@
 ---
 title: "How to Speak"
-tags: [Self Help, Notes]
+tags: ["notes", "self help"]
 date: 2020-12-29
 draft: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: "如何快速学习"
-tags: [Self Help, Notes]
+tags: ["notes", "self help"]
 date: 2018-04-14
 draft: false
 ---

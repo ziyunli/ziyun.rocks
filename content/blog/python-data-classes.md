@@ -1,6 +1,6 @@
 ---
 title: "Data Classes in Python"
-tags: [Python, TIL]
+tags: ["til", "python"]
 date: 2022-08-17
 ---
 

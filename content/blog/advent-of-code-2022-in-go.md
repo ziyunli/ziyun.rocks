@@ -1,6 +1,6 @@
 ---
 title: "Learning Go with Advent of Code 2022"
-tags: [Golang]
+tags: ["golang", "advent of code"]
 date: 2022-12-22T18:54:24-08:00
 draft: true
 ---

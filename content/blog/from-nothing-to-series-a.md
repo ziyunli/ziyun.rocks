@@ -1,6 +1,6 @@
 ---
 title: "How To Go From Idea To Series A"
-tags: [Startup, Notes]
+tags: ["notes", "startup"]
 date: 2022-08-17
 draft: false
 ---

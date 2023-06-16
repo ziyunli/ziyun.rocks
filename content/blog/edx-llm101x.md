@@ -2,7 +2,7 @@
 title: "Notes on Databricks LLM101x"
 summary: "Large Language Models: Application through Production"
 date: 2023-06-13
-tags: [Notes, Course, LLM]
+tags: ["notes", "course", "llm"]
 draft: true
 ---
 
