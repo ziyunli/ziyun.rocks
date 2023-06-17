@@ -2,9 +2,7 @@ Howdy!
 
 I am Ziyun Li (a.k.a 李子雲), and I also go by Stephen. I am an electrical engineer turned software engineer.
 
-I currently work as a ~~Senior~~ **Staff Software Engineer** at [Instacart](https://www.instacart.com/), where I am a team lead of the [Instacart API platform](https://docs.instacart.com/connect).
-My work increases our grocer partners' GMV (gross merchandise volume) by empowering them with Instacart's grocery delivery service for thousands of orders per day, quickly and reliably.
-Before this, I built classroom engagement software at [Top Hat](https://tophat.com/), enterprise learning management system at [D2L](https://www.d2l.com/), and Xbox One at [Microsoft](https://www.microsoft.com/).
+I am currently as a ~~Senior~~ **Staff Software Engineer**, working on [an API platform](https://docs.instacart.com/connect) at [Instacart](https://www.instacart.com/) ~~classroom engagement software at [Top Hat](https://tophat.com/)~~ ~~enterprise learning management system at [D2L](https://www.d2l.com/)~~ ~~Xbox One at [Microsoft](https://www.microsoft.com/)~~
 
 ---
 
