@@ -25,10 +25,11 @@ It seems there are some manual works I need to do, and roughly the recipe is:
 ## Extract the audio
 
 This is the easiest step: `yt-dlp` handles it with ease as long as you have the right combination of flags.
+
 It turns out that the first ~35 minutes of the youtube video is just background music, so I trimmed it to reduce the transcribe time in the next step.
 I simply used the macOS native QuickTime Player to trim the audio file. I found later that it doesn't seem to support trimming `m4a`.
-Therefore, I let `yt-dlp` to download the audio in `mp3` format, which means the command becomes:
 
+Therefore, I let `yt-dlp` to download the audio in `mp3` format, which means the command becomes:
 ```bash
 yt-dlp -f 'ba' -x --audio-format mp3 "https://www.youtube.com/watch?v=gZuG4Yng4bY"`
 ```
@@ -55,6 +56,8 @@ Now we have the transcription, we can feed it to a LLM to summarize it!
 ...
 Until we quickly find out that the text is too long for GPT 4 to handle.
 I tried to find out the number of tokens from [OpenAI's tokenizer](https://platform.openai.com/tokenizer), but the text is even too long for the tokenizer to handle.
+
+
 But I do remember another recent LLM that can handle much longer context window: [claude 2](https://claude.ai/)!
 If you try to paste the whole transcription, it also just get uploaded as an attached `txt` file instead of being pasted into the text box, which is nice.
 The summarization looks reasonable ([link](https://claude.ai/chat/4782789c-bd9a-417e-81d5-7b42075fef90)), but I need someone that actually watched the video to verify it!
