@@ -30,7 +30,7 @@ I simply used the macOS native QuickTime Player to trim the audio file. I found 
 Therefore, I let `yt-dlp` to download the audio in `mp3` format, which means the command becomes:
 
 ```bash
-yt-dlp -f 'ba' -x --audio-format mp3 https://www.youtube.com/watch\?v\=gZuG4Yng4bY`
+yt-dlp -f 'ba' -x --audio-format mp3 "https://www.youtube.com/watch?v=gZuG4Yng4bY"`
 ```
 
 And then I trimmed the first 35 minutes away manually with QuickTime.
