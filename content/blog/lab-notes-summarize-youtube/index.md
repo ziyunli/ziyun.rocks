@@ -47,6 +47,7 @@ It does seem possible that the service (container?) behinds the scene might get 
 Therefore, it's probably a good idea to trim the audio file to a reasonable length.
 It failed original ~1.5 hours audio after ~25 minutes, but it worked fine after I trimmed it to ~1 hour (which took `13:58` to transcribe).
 The raw transcription is [here](https://gist.github.com/ziyunli/5d01eb200cd45a61f61b370b1ae96616#file-transcript-txt).
+There is also a [direct link](https://replicate.com/openai/whisper?prediction=mozxirzbs2hiz7dqe6a4avuxme) to the Whisper demo session.
 
 ## Summarize the transcription
 
