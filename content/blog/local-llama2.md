@@ -1,5 +1,5 @@
 +++
-title = "Lab Notes: Setting up LLaMa 2 locally with LLM CLI"
+title = "Setting up LLaMa 2 locally with LLM CLI"
 date = "2023-09-27T11:17:39-07:00"
 
 tags = ["lab-notes","large-language-model"]

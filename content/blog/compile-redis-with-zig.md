@@ -1,5 +1,5 @@
 +++
-title = "Lab Notes: Compile Redis With Zig"
+title = "Compile Redis With Zig"
 date = "2023-08-11T16:13:44-07:00"
 
 tags = ["lab-notes","zig"]

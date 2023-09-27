@@ -1,5 +1,5 @@
 +++
-title = "Lab Notes: How to Summarize any Youtube video"
+title = "How to Summarize any Youtube video"
 date = "2023-07-21T15:18:45-07:00"
 
 tags = ["lab notes", "large language model", "automatic speech recognition"]
