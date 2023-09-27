@@ -38,7 +38,7 @@ This led me to another thread https://huggingface.co/TheBloke/Llama-2-13B-chat-G
 
 ```sh
 llm llama-cpp download-model \
-  https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/resolve/main/llama-2-7b-chat.ggmlv3.q8_0.bin \
+  https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF/resolve/main/llama-2-7b-chat.Q8_0.gguf \
   --alias llama2-chat --alias l2c --llama2-chat
 ```
 
