@@ -56,4 +56,5 @@ Now, it's working...well kind of:
 ```
 
 For some reason, I always get this `ggml_metal_free: deallocating` string appended at the end of the response.
-Is this some issue with the GGUF modell?
+~~Is this some issue with the GGUF modell?~~
+This seems to be an issue where C++ logging output is leaked to the response, https://github.com/nomic-ai/gpt4all/issues/1159 seems relevant.
