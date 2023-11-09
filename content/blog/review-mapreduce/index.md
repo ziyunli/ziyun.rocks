@@ -16,7 +16,7 @@ Anyway, without further ado, let's jump into the first paper about MapReduce[^1]
 
 # Why
 
-To understand why Google needed it in the first place, the thing to focus here is the "large data sets". Google needed to process multi-terabyte data-sets that couldn't be handled with a single computer (remember this paper was published back in 2004, and it's still easy in 2022). As a result, the date is split into smaller pieces and distributed among 1000+ machines, which are just commodity PCs. While a single commodity PC is quite reliable, once you have thousands on them running together, there is always something broken.
+To understand why Google needed it in the first place, the thing to focus here is the "large data sets". Google needed to process multi-terabyte data-sets that couldn't be handled with a single computer (remember this paper was published back in 2004, and it's still not easy in 2022). As a result, the date is split into smaller pieces and distributed among 1000+ machines, which are just commodity PCs. While a single commodity PC is quite reliable, once you have thousands on them running together, there is always something broken.
 
 Before MapReduce, a programmer has to manually implement a distributed system that can handle data distribution (i.e. splitting the input data), parallelization (i.e. organizing 1000+ machines), load balancing (i.e. ensuring no machine is overloaded), and fault tolerance (i.e. handling the unavoidable failures from machines). You can easily see how this model won't scale: every programmer has to be a distributed system engineer to get any work done. The answer Google came up was MapReduce.
 # How
