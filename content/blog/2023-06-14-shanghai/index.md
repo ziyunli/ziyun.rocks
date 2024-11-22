@@ -1,5 +1,6 @@
 +++
 title = "我的上海回忆"
+slug = "my-shanghai-memories"
 date = "2023-06-14T22:57:07-07:00"
 tags = ["life"]
 draft = true

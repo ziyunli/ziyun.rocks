@@ -1,5 +1,6 @@
 ---
 title: "Paper review: MapReduce"
+slug: review-mapreduce
 date: 2022-06-20
 tags: ["review", "paper", "distributed system"]
 ---

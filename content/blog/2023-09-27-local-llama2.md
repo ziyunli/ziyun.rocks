@@ -1,7 +1,7 @@
 +++
-title = "Setting up LLaMa 2 locally with LLM CLI"
+title = "Setting up LLaMA 2 locally with LLM CLI"
+slug = "setting-up-llama-2-locally-with-llm-cli"
 date = "2023-09-27T11:17:39-07:00"
-
 tags = ["lab-notes","large-language-model"]
 +++
 
