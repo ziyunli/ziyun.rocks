@@ -2,7 +2,7 @@
 title: "超高校级的荒诞与超高校级的快感"
 tags: ["review", "video game"]
 date: 2013-11-30
-draft: false
+draft: true
 ---
 
 ![start](./start.jpeg)
