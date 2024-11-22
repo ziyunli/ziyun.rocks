@@ -1,7 +1,7 @@
 ---
 title: "Setup fastai in WSL2"
 slug: setup-fastai-in-wsl2
-tags: ["tutorial", "wsl"]
+tags: ["lab notes"]
 date: 2022-09-21
 draft: false
 ---

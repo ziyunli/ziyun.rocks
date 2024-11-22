@@ -2,7 +2,7 @@
 title = "Setting up LLaMA 2 locally with LLM CLI"
 slug = "setting-up-llama-2-locally-with-llm-cli"
 date = "2023-09-27T11:17:39-07:00"
-tags = ["lab-notes","large-language-model"]
+tags = ["lab notes"]
 +++
 
 I am trying to set up a local LLM to play with some ideas, and I started with [Simon Willison's post](https://simonwillison.net/2023/Aug/1/llama-2-mac/) that is based on his [LLM CLI tool](https://github.com/simonw/llm).

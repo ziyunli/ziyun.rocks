@@ -2,8 +2,7 @@
 title = "Compile Redis With Zig"
 slug = "compile-redis-with-zig"
 date = "2023-08-11T16:13:44-07:00"
-
-tags = ["lab-notes","zig"]
+tags = ["lab notes"]
 +++
 
 There is a [HN thread](https://news.ycombinator.com/item?id=37081833) about C development setup that I tried to follow for my electronics project.

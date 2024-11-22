@@ -1,7 +1,7 @@
 ---
 title: "超高校级的荒诞与超高校级的快感"
 slug: dangan-ronpa
-tags: ["review", "video game"]
+tags: ["video game"]
 date: 2013-11-30
 draft: true
 ---
