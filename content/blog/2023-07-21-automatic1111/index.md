@@ -85,4 +85,4 @@ That's gonna be my next thing to test before I opt for more powerful options (in
 By the way, I got quite lucky with my fifth image and I am quite happy with how it looks.
 This will be my QR code for me advertising this blog for a while.
 
-![Me time traveling from 2077](/me.png)
+![Me time traveling from 2077](./me.png)
