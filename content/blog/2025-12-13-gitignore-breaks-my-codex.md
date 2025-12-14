@@ -1,10 +1,10 @@
 +++
-title = "Why @ nevers work for me in Codex??!"
+title = "Why @ never works for me in Codex?!"
 date = 2025-12-13
-draft = true
+description = "I discovered why Codex's @ file search always returned 'no matches' for me. The culprit was a ~/.gitignore with * that I use for my dotfiles repo, which ripgrep's walker respects by default. With help from Codex itself, I found a better approach using git config status.showUntrackedFiles no."
 +++
 
-I have been recently experimenting with different LLM CLIs for my projects, as shown in my previous post about [wrangling multiple LLM CLIs](../2025-11-13-llm-clis/). However, I wasn't able to try much for Codex, for a very simple reason: `@` just never works and always just return “no matches”. I've found several issues on Github that people were submitting fixes for similar problems, so I thought at some point this would be resolved. But no, stills the same for a month later. Then I decided to do a bit digging myself, and oh well of course with some LLM help. The good thing is that Codex is [open source](https://github.com/openai/codex/), so I can just look into the codebase directly. In fact if you follow the [installation guide](https://github.com/openai/codex/blob/main/docs/install.md) you will run `cargo run --bin codex -- "explain this codebase to me"`, which serves [a great starting point](https://gist.github.com/ziyunli/d02df7a49846f4040cb76bb77e92d09c#file-codex_overview-md).
+I have been recently experimenting with different LLM CLIs for my projects, as shown in my previous post about [wrangling multiple LLM CLIs](../2025-11-13-llm-clis/). However, I wasn't able to try much for Codex, for a very simple reason: `@` just never works and always just return “no matches”. I've found several issues on Github that people were submitting fixes for similar problems, so I thought at some point this would be resolved. But no, still the same a month later. Then I decided to do a bit digging myself, and oh well of course with some LLM help. The good thing is that Codex is [open source](https://github.com/openai/codex/), so I can just look into the codebase directly. In fact if you follow the [installation guide](https://github.com/openai/codex/blob/main/docs/install.md) you will run `cargo run --bin codex -- "explain this codebase to me"`, which serves [a great starting point](https://gist.github.com/ziyunli/d02df7a49846f4040cb76bb77e92d09c#file-codex_overview-md).
 
 
 Then I asked:
@@ -71,7 +71,7 @@ ensuring it’s not accidentally treated as a global ignore file by other toolin
 - With status.showUntrackedFiles no, your dotfiles status won’t spam you with every file in $HOME.
 ```
 
-I felt the whole setup is a bit too much for my use case, but `config status.showUntrackedFiles no` seems to be a good enough solution. The only other issue I found is that it doesn't quite work with VS code, which again I turned to Codex for help:
+I felt the whole setup is a bit too much for my use case, but `config status.showUntrackedFiles no` seems to be a good enough solution. The only other issue I found is that it doesn't quite work with VS Code, so I turned to Codex again for help:
 
 ```
   VS Code’s Git extension does not rely on your status.showUntrackedFiles=no default. It typically runs git status --porcelain … -uall (or equivalent), and -uall overrides status.showUntrackedFiles.
