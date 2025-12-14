@@ -4,6 +4,7 @@ slug: setup-fastai-in-wsl2
 tags: ["lab notes"]
 date: 2022-09-21
 draft: false
+summary: "How to get PyTorch and fastai working with CUDA in WSL2. The key is ensuring consistent CUDA versions across your NVIDIA driver, CUDA Toolkit, and Python packages."
 ---
 
 Steps to get PyTorch and fastai working with CUDA support in WSL2.

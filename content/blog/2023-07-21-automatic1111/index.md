@@ -3,6 +3,7 @@ title = "Setting up Automatic1111"
 slug = "setting-up-automatic1111"
 date = "2023-06-14T18:03:16-07:00"
 tags = ["lab notes"]
+summary = "Getting started with Stable Diffusion WebUI (A1111) and ControlNet for QR code art generation. Includes lessons learned on parameter tuning and why generation speed matters."
 +++
 
 I have been sleeping on stable diffusion for a while, but the recent [ControlNet for QR Code](https://www.reddit.com/r/StableDiffusion/comments/141hg9x/controlnet_for_qr_code/) sparked my interest again. So as always, I am late to the party. But I guess it is better late than never.
