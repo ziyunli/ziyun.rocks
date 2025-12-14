@@ -21,6 +21,7 @@ In the article, it suggests "you will need to use Zig 0.8.1 and commit be6ce8a o
 But I decided to try with Redis 7.2 and the latest Zig 0.11 instead.
 
 The error I ran into is:
+
 ```sh
 MAKE fpconv
 cd fpconv && /Library/Developer/CommandLineTools/usr/bin/make

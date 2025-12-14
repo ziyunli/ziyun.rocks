@@ -15,12 +15,11 @@ Even if I extracted the audio and fed it to the model, it still didn't work.
 
 ![](./gpt-4.png)
 
-
 It seems there are some manual works I need to do, and roughly the recipe is:
+
 1. Extract the audio
 2. Transcribe the audio to text
 3. Feed the text to a LLM to summarize
-
 
 ## Extract the audio
 
@@ -30,6 +29,7 @@ It turns out that the first ~35 minutes of the youtube video is just background 
 I simply used the macOS native QuickTime Player to trim the audio file. I found later that it doesn't seem to support trimming `m4a`.
 
 Therefore, I let `yt-dlp` to download the audio in `mp3` format, which means the command becomes:
+
 ```bash
 yt-dlp -f 'ba' -x --audio-format mp3 "https://www.youtube.com/watch?v=gZuG4Yng4bY"`
 ```
@@ -41,6 +41,7 @@ And then I trimmed the first 35 minutes away manually with QuickTime.
 I have heard about Whisper from OpenAI for a long time and have been wanting to try it out.
 And it turns out that there is a hosted demo that you can try out without any setup on [replicate](https://replicate.com/openai/whisper)!
 The only two things I changed is:
+
 1. model: `large-v2`
 2. language: `en` (for reason if I didn't provide a value, the language of the audio was detected as `latin`)
 
@@ -57,12 +58,10 @@ Now we have the transcription, we can feed it to a LLM to summarize it!
 Until we quickly find out that the text is too long for GPT 4 to handle.
 I tried to find out the number of tokens from [OpenAI's tokenizer](https://platform.openai.com/tokenizer), but the text is even too long for the tokenizer to handle.
 
-
 But I do remember another recent LLM that can handle much longer context window: [claude 2](https://claude.ai/)!
 If you try to paste the whole transcription, it also just get uploaded as an attached `txt` file instead of being pasted into the text box, which is nice.
 The summarization looks reasonable ([link](https://claude.ai/chat/4782789c-bd9a-417e-81d5-7b42075fef90)), but I need someone that actually watched the video to verify it!
 I posted back to the Slack channel and will see if I can get some feedback.
-
 
 ```
 Based on the conversation, here are some of the things that did not go well with patch 1.1.0:

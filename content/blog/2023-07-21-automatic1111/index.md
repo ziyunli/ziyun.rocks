@@ -71,9 +71,10 @@ You can definitely relate to the previous two images in terms of the overall sty
 ![Same seed](./seed-3502696068.png)
 
 Therefore, my workflow right now is
+
 1. Cherry pick some keywords from some example prompts
 2. Keep hitting generate to roll the dice with -1 seed
-3. Once I see one somewhat close to the vibe I am looking for, I will fix the seed and  tweak the prompt and parameters.
+3. Once I see one somewhat close to the vibe I am looking for, I will fix the seed and tweak the prompt and parameters.
 
 Given that basically I am throwing things at the wall and see what sticks, the generation speed is very important.
 Unfortunately, with M1 it's quite slow: it takes me ~3 minutes to generate one image.
