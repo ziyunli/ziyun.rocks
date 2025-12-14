@@ -1,7 +1,7 @@
 +++
 title = "Why @ never works for me in Codex?!"
 date = 2025-12-13
-description = "I discovered why Codex's @ file search always returned 'no matches' for me. The culprit was a ~/.gitignore with * that I use for my dotfiles repo, which ripgrep's walker respects by default. With help from Codex itself, I found a better approach using git config status.showUntrackedFiles no."
+summary = "I discovered why Codex's @ file search always returned 'no matches' for me, with the help from Codex itself."
 +++
 
 I have been recently experimenting with different LLM CLIs for my projects, as shown in my previous post about [wrangling multiple LLM CLIs](../2025-11-13-llm-clis/). However, I wasn't able to try much for Codex, for a very simple reason: `@` just never works and always just return “no matches”. I've found several issues on Github that people were submitting fixes for similar problems, so I thought at some point this would be resolved. But no, still the same a month later. Then I decided to do a bit digging myself, and oh well of course with some LLM help. The good thing is that Codex is [open source](https://github.com/openai/codex/), so I can just look into the codebase directly. In fact if you follow the [installation guide](https://github.com/openai/codex/blob/main/docs/install.md) you will run `cargo run --bin codex -- "explain this codebase to me"`, which serves [a great starting point](https://gist.github.com/ziyunli/d02df7a49846f4040cb76bb77e92d09c#file-codex_overview-md).
