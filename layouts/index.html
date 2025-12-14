@@ -1,0 +1,13 @@
+{{ define "main" }}
+<h2>Recent Posts</h2>
+{{ range first 3 (where .Site.RegularPages "Section" "blog") }}
+<article>
+  <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+  <time datetime='{{ .Date.Format "2006-01-02" }}'>
+    {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+  </time>
+  <p>{{ .Summary }}</p>
+</article>
+{{ end }}
+<p><a href="{{ "blog" | relURL }}">→ View all posts</a></p>
+{{ end }}
