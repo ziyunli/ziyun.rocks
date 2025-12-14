@@ -1,6 +1,6 @@
 {{ define "main" }}
-<h2>Recent Posts</h2>
-{{ range first 3 (where .Site.RegularPages "Section" "blog") }}
+<h2>Recently...</h2>
+{{ range first 5 (where .Site.RegularPages "Section" "blog") }}
 <article>
   <div style="display: flex; justify-content: space-between; align-items: baseline;">
     <h3 style="margin: 0;"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
@@ -9,5 +9,4 @@
   <p>{{ .Params.summary | default .Summary }}</p>
 </article>
 {{ end }}
-<p><a href="{{ "blog" | relURL }}">→ View all posts</a></p>
 {{ end }}
