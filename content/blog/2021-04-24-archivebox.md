@@ -2,7 +2,6 @@
 title: "Self-hosting ArchiveBox on a VPS"
 slug: self-hosting-archivebox-on-a-vps
 date: 2021-04-24T22:16:31-04:00
-tags: ["tutorial"]
 summary: "A step-by-step guide to self-hosting ArchiveBox on a Vultr One-Click Docker instance. Covers Docker Compose setup, firewall configuration with ufw, and publishing via Caddy reverse proxy with automatic SSL."
 ---
 

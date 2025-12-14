@@ -2,7 +2,6 @@
 title = "Setting up LLaMA 2 locally with LLM CLI"
 slug = "setting-up-llama-2-locally-with-llm-cli"
 date = "2023-09-27T11:17:39-07:00"
-tags = ["lab notes"]
 summary = "Running LLaMA 2 locally using Simon Willison's LLM CLI. Documents the GGML to GGUF migration gotcha and a workaround for the leaked C++ logging output."
 +++
 

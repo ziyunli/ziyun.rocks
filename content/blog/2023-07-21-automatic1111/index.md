@@ -2,7 +2,6 @@
 title = "Setting up Automatic1111"
 slug = "setting-up-automatic1111"
 date = "2023-06-14T18:03:16-07:00"
-tags = ["lab notes"]
 summary = "Getting started with Stable Diffusion WebUI (A1111) and ControlNet for QR code art generation. Includes lessons learned on parameter tuning and why generation speed matters."
 +++
 

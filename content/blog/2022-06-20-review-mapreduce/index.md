@@ -2,7 +2,6 @@
 title: "Paper review: MapReduce"
 slug: review-mapreduce
 date: 2022-06-20
-tags: ["distributed system"]
 summary: "A deep dive into Google's MapReduce paper from MIT 6.824. Explores the programming model, the coordinator/worker architecture, and how it handles fault tolerance at scale."
 ---
 

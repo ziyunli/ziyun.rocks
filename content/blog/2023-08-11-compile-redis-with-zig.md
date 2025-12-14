@@ -2,7 +2,6 @@
 title = "Compile Redis With Zig"
 slug = "compile-redis-with-zig"
 date = "2023-08-11T16:13:44-07:00"
-tags = ["lab notes"]
 summary = "Experimenting with Zig as a C/C++ build system by compiling Redis 7.2. A quick fix for the LTO compatibility issue on macOS gets it working."
 +++
 

@@ -2,7 +2,6 @@
 title = "How to Summarize any Youtube video"
 slug = "summarize-youtube-video"
 date = "2023-07-21T15:18:45-07:00"
-tags = ["lab notes"]
 summary = "A workflow for summarizing long YouTube videos using yt-dlp, OpenAI Whisper, and Claude 2. Extract audio, transcribe it, then feed the transcript to an LLM with a large context window."
 +++
 

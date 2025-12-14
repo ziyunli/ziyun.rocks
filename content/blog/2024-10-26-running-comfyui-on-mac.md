@@ -3,7 +3,6 @@ title = "Running ComfyUI on Mac"
 date = "2024-10-26T11:02:15-07:00"
 slug = "running-comfyui-on-mac"
 description = "Getting ComfyUI to run on Mac"
-tags = ["lab notes"]
 summary = "Setting up ComfyUI on macOS with Metal acceleration. Requires Python 3.10, PyTorch nightly builds, and careful attention to which Python is active."
 +++
 
