@@ -3,7 +3,9 @@ title = "Why @ never works for me in Codex?!"
 date = 2025-12-13
 +++
 
-I have been recently experimenting with different LLM CLIs for my projects, as shown in my previous post about [wrangling multiple LLM CLIs](../2025-11-13-llm-clis/). However, I wasn't able to try much for Codex, for a very simple reason: `@` just never works and always just return “no matches”. I've found several issues on Github that people were submitting fixes for similar problems, so I thought at some point this would be resolved. But no, still the same a month later. Then I decided to do a bit digging myself, and oh well of course with some LLM help. The good thing is that Codex is [open source](https://github.com/openai/codex/), so I can just look into the codebase directly. In fact if you follow the [installation guide](https://github.com/openai/codex/blob/main/docs/install.md) you will run `cargo run --bin codex -- "explain this codebase to me"`, which serves [a great starting point](https://gist.github.com/ziyunli/d02df7a49846f4040cb76bb77e92d09c#file-codex_overview-md).
+I have recently been experimenting with different LLM CLIs for my projects, as shown in my previous post about [wrangling multiple LLM CLIs](../2025-11-13-llm-clis/). But I could not use Codex much for a simple reason: `@` file search never worked for me and always returned “no matches”. I found several issues on GitHub where people were submitting fixes for similar problems, so I assumed it would get resolved. It did not, so I decided to dig in myself (with some LLM help).
+
+Codex is [open source](https://github.com/openai/codex/), so I could read the code. If you follow the [installation guide](https://github.com/openai/codex/blob/main/docs/install.md), you will run `cargo run --bin codex -- "explain this codebase to me"`, which is [a great starting point](https://gist.github.com/ziyunli/d02df7a49846f4040cb76bb77e92d09c#file-codex_overview-md).
 
 Then I asked:
 
@@ -30,9 +32,9 @@ respect_gitignore=true (tui/src/file_search.rs:167).
 make it look like “search is broken” while traversal is happening.
 ```
 
-This made me realized that I have a `.gitignore` file in my home directory that ignores everything (with `*`). And because Codex uses ripgrep's walker that respects `.gitignore` by default, it effectively makes Codex think my home directory is empty!
+This made me realize the problem was self-inflicted. I had a `~/.gitignore` file that ignores everything (just `*`). Codex uses a ripgrep-style filesystem walker (`ignore::WalkBuilder`) and runs it with `respect_gitignore=true`, which means it will apply ignore rules from parent directories. So if you run Codex anywhere under your home directory, `~/.gitignore` can make the walker filter out almost every file, and `@` search comes back empty.
 
-But the reason why I have such a `.gitignore` file is that I put some of my dotfiles in Git repositories, and I don't want Git to track any other files in my home directory. After a couple more questions, Codex made some suggestions:
+The reason I had this file is that I keep some dotfiles in Git, and I did not want Git to show every other file in my home directory as untracked. After a couple more questions, Codex made some suggestions:
 
 ```
 Why ~/.gitignore="*" is toxic
