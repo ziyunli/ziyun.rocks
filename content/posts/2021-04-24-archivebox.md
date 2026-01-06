@@ -2,7 +2,6 @@
 title: "Self-hosting ArchiveBox on a VPS"
 slug: self-hosting-archivebox-on-a-vps
 date: 2021-04-24T22:16:31-04:00
-tags: ["tutorial"]
 ---
 
 Note: this article is edited and published at [Vultr Docs](https://www.vultr.com/docs/install-archivebox-on-a-oneclick-docker-application)
@@ -14,8 +13,8 @@ This guide explains how to self-host ArchiveBox on a Vultr One-Click Docker appl
 
 # Prerequisites
 
-* A Vultr One-Click Docker application running Ubuntu 18.04
-* Caddy
+- A Vultr One-Click Docker application running Ubuntu 18.04
+- Caddy
 
 This guide assumes that only ArchiveBox is hosted on the server, but you can easily extend the configuration of Caddy for more applications.
 
@@ -30,6 +29,7 @@ Using `docker-compose` is the recommended way to set up ArchiveBox. And ArchiveB
 ```bash
 su - docker
 ```
+
 3. Create a new empty directory, and download the official [`docker-compose.yml`](https://raw.githubusercontent.com/ArchiveBox/ArchiveBox/master/docker-compose.yml) file. Note this folder will also be the place to store data of ArchiveBox.
 
 ```bash

@@ -2,8 +2,6 @@
 title = "Running ComfyUI on Mac"
 date = "2024-10-26T11:02:15-07:00"
 slug = "running-comfyui-on-mac"
-description = "Getting ComfyUI to run on Mac"
-tags = ["lab notes"]
 +++
 
 Setting up ComfyUI on a Mac requires a few specific steps, especially around managing dependencies and ensuring compatibility with Apple’s Metal acceleration. Here’s a detailed walkthrough of what worked for me.
@@ -41,15 +39,15 @@ To optimize performance on Mac, we can use Metal acceleration, which accelerates
 1. **Activate the virtual environment:** Make sure you’re using the `venv` created in the previous step.
 2. **Install PyTorch with Metal acceleration:** Run the following to install nightly versions of PyTorch with Metal support.
 
-    ```bash
-    ./venv/bin/pip install --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cpu
-    ```
+   ```bash
+   ./venv/bin/pip install --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cpu
+   ```
 
 3. **Install ComfyUI dependencies:** Now, install the required packages for ComfyUI.
 
-    ```bash
-    ./venv/bin/pip install -r requirements.txt
-    ```
+   ```bash
+   ./venv/bin/pip install -r requirements.txt
+   ```
 
 ## Step 3: Run ComfyUI
 
