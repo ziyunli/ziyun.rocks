@@ -5,7 +5,7 @@ date = 2025-12-13
 
 I have recently been experimenting with different LLM CLIs for my projects, as shown in my previous post about [wrangling multiple LLM CLIs](../2025-11-13-llm-clis/). But I could not use Codex much for a simple reason: `@` file search never worked for me and always returned “no matches”. I found several issues on GitHub where people were submitting fixes for similar problems, so I assumed it would get resolved. It did not, so I decided to dig in myself (with some LLM help).
 
-Codex is [open source](https://github.com/openai/codex/), so I could read the code. If you follow the [installation guide](https://github.com/openai/codex/blob/main/docs/install.md), you will run `cargo run --bin codex -- "explain this codebase to me"`, which is [a great starting point](https://gist.github.com/ziyunli/d02df7a49846f4040cb76bb77e92d09c#file-codex_overview-md).
+Codex is [open source](https://github.com/openai/codex/), so I could read the code. If you follow the [installation guide](https://github.com/openai/codex/blob/main/docs/install.md), you will run `cargo run --bin codex -- "explain this codebase to me"`, which is [a great starting point](https://gist.github.com/ziyunli/d02df7a49846f4040cb76bb77e92d09c#file-codex_overview-md) for understanding how the codebase works.
 
 Then I asked:
 
@@ -71,16 +71,44 @@ ensuring it’s not accidentally treated as a global ignore file by other toolin
 - With status.showUntrackedFiles no, your dotfiles status won’t spam you with every file in $HOME.
 ```
 
-I felt the whole setup is a bit too much for my use case, but `config status.showUntrackedFiles no` seems to be a good enough solution. The only other issue I found is that it doesn't quite work with VS Code, so I turned to Codex again for help:
+---
 
+Update: I ended up using the bare dotfiles repo pattern since deleting `.gitignore` caused a bunch of other issues. For example, when I tried to open my home directory in VS Code, it simply blew up. Below is what I did (with the help from Claude Code):
+
+```shell
+# 1. Move your existing git data to the bare location
+mv ~/.git ~/.dotfiles
+
+# 2. Set the worktree
+git --git-dir=$HOME/.dotfiles config core.worktree "$HOME"
+
+# 3. Hide untracked files (otherwise `status` shows everything in ~)
+git --git-dir=$HOME/.dotfiles config status.showUntrackedFiles no
+
+# 4. Remove the gitignore that was causing your problems
+rm ~/.gitignore
 ```
-  VS Code’s Git extension does not rely on your status.showUntrackedFiles=no default. It typically runs git status --porcelain … -uall (or equivalent), and -uall overrides status.showUntrackedFiles.
 
-  What to do instead:
+And then I added the following to my `.zshrc`:
 
-  - Set VS Code to hide untracked:
-      - Settings → search “untracked” → set Git: Untracked Changes to hidden
-      - Or in settings.json: "git.untrackedChanges": "hidden"
+```shell
+dotfiles() {
+  GIT_DIR=$HOME/.dotfiles GIT_WORK_TREE=$HOME "$@"
+}
+# Note: This runs any command with the git env vars set, so you use `dotfiles git status` rather than just `dotfiles status`
 ```
 
-...and now I am unblocked to use Codex with the help from Codex itself!
+Now I'm able to continue using git tools with the new setup:
+
+```shell
+dotfiles tig
+dotfiles git status
+dotfiles lazygit
+dotfiles gitui
+```
+
+It does feel slightly more awkward compared to the previous setup, but [fzf](https://github.com/junegunn/fzf) (a fuzzy finder for the terminal) helps once I've typed a few more commands in my shell history. And it's good to finally try Codex!
+
+---
+
+_Edited by Claude Code (claude-opus-4-5-20251101)_
