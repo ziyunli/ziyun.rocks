@@ -1,8 +1,8 @@
-+++
-title = "Running Mojo With Python"
-slug = "running-mojo-with-python"
-date = "2023-10-17T16:46:01-07:00"
-+++
+---
+title: "Running Mojo With Python"
+slug: running-mojo-with-python
+date: 2023-10-17T16:46:01-07:00
+---
 
 I ran into an issue when I tried to run [llama2.mojo](https://github.com/tairov/llama2.mojo) with `mojo llama2.mojo stories15M.bin -s 100 -n 256 -t 0.5 -i "Mojo is a language"`:
 

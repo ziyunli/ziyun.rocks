@@ -1,7 +1,7 @@
-+++
-title = "Why @ never works for me in Codex?!"
-date = 2025-12-13
-+++
+---
+title: "Why @ never works for me in Codex?!"
+date: 2025-12-13
+---
 
 I have recently been experimenting with different LLM CLIs for my projects, as shown in my previous post about [wrangling multiple LLM CLIs](../2025-11-13-llm-clis/). But I could not use Codex much for a simple reason: `@` file search never worked for me and always returned “no matches”. I found several issues on GitHub where people were submitting fixes for similar problems, so I assumed it would get resolved. It did not, so I decided to dig in myself (with some LLM help).
 

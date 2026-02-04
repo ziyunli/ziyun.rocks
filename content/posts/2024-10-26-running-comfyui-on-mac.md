@@ -1,8 +1,8 @@
-+++
-title = "Running ComfyUI on Mac"
-date = "2024-10-26T11:02:15-07:00"
-slug = "running-comfyui-on-mac"
-+++
+---
+title: "Running ComfyUI on Mac"
+date: 2024-10-26T11:02:15-07:00
+slug: running-comfyui-on-mac
+---
 
 Setting up ComfyUI on a Mac requires a few specific steps, especially around managing dependencies and ensuring compatibility with Apple’s Metal acceleration. Here’s a detailed walkthrough of what worked for me.
 

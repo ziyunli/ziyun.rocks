@@ -1,7 +1,7 @@
-+++
-title = "Wrangling Multiple LLM CLIs"
-date = "2025-11-13T23:22:57-08:00"
-+++
+---
+title: "Wrangling Multiple LLM CLIs"
+date: 2025-11-13T23:22:57-08:00
+---
 
 I'm experimenting with different LLM CLIs for my projects—specifically OpenAI Codex, Claude Code, and Google Gemini. The goal is to have flexibility to switch subscriptions and control costs while keeping things easy to test.
 

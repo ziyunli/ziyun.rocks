@@ -1,8 +1,8 @@
-+++
-title = "How to Summarize any Youtube video"
-slug = "summarize-youtube-video"
-date = "2023-07-21T15:18:45-07:00"
-+++
+---
+title: "How to Summarize any Youtube video"
+slug: summarize-youtube-video
+date: 2023-07-21T15:18:45-07:00
+---
 
 So in a video game channel on Slack today, an [interview about Diablo 4](https://www.youtube.com/watch?v=gZuG4Yng4bY) was posted.
 It sounded like the devs there weren't having a great week, but it is a long video that I didn't want to watch.
