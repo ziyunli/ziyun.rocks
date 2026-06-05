@@ -13,6 +13,7 @@
 
   {{ .Content }}
 
+  {{ if eq .Section "posts" }}
   <footer>
     <hr>
     <script src="https://utteranc.es/client.js"
@@ -24,5 +25,6 @@
             async>
     </script>
   </footer>
+  {{ end }}
 </article>
 {{ end }}
