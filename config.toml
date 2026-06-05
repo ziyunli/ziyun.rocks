@@ -60,3 +60,7 @@ dateFormat = "2006-01-02"
     name = "tags"
     url = "/tags/"
     weight = 3
+  [[menu.main]]
+    name = "now"
+    url = "https://ziyun.dev/now"
+    weight = 4
