@@ -5,7 +5,7 @@ baseURL = "https://blog.ziyun.rocks"
 title = "子雲"
 author = "Ziyun Li"
 copyright = "Copyright © 2013, Ziyun Li."
-languageCode = "en-US"
+locale = "en-US"
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
 enableGitInfo = true
