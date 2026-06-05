@@ -1,7 +1,6 @@
 ---
 title: "Surviving the LLM Era as a Software Engineer"
 date: 2026-03-04
-draft: true
 ---
 
 I haven't written a line of code since the beginning of 2026. I'm still employed as a software engineer.
