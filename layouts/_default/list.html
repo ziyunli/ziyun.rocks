@@ -1,6 +1,7 @@
 {{ define "main" }}
+<h1>{{ .Title }}</h1>
 <div class="article-list">
-  {{ range (where .Site.RegularPages "Section" "posts") }}
+  {{ range .Pages }}
   <article>
     <header>
       <time datetime='{{ .Date.Format "2006-01-02" }}'>{{ .Date.Format (default "2006-01-02" .Site.Params.dateFormat) }}</time>

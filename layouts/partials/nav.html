@@ -1,0 +1,7 @@
+{{ $currentPage := . }}
+<nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+{{- range $i, $e := .Site.Menus.main }}
+{{- if $i }} &middot; {{ end }}
+<a itemprop="url" class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" href="{{ .URL | relLangURL }}"><span itemprop="name">{{ .Name }}</span></a>
+{{- end }}
+</nav>

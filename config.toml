@@ -1,8 +1,6 @@
 # Base URL used when generating links to your pages
 # Set to the URL for your site
 baseURL = "https://blog.ziyun.rocks"
-# The name of this wonderful theme ;-).
-theme = 'hugo-bearblog'
 # Basic metadata configuration for your blog.
 title = "子雲"
 author = "Ziyun Li"
@@ -15,14 +13,6 @@ enableGitInfo = true
 [frontmatter]
 date = ["date", "publishDate", "lastmod"]
 lastmod = ["lastmod", ":git", "date", "publishDate"]
-# Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
-disableKinds = ["taxonomy"]
-ignoreErrors = ["error-disable-taxonomy"]
-
-[permalinks]
-blog = "/blog/:year/:slug/"
-tags = "/blog/:slug"
-
 [params]
 # The "description" of your website. This is used in the meta data of your generated html.
 description = "Ziyun = :metal:"
@@ -47,3 +37,26 @@ title = "Ziyun Rocks"
 # for details. An example TOML config that uses [ISO
 # 8601](https://en.wikipedia.org/wiki/ISO_8601) format:
 dateFormat = "2006-01-02"
+
+[taxonomies]
+  tag = "tags"
+
+[markup]
+  [markup.highlight]
+    style = "monokai"
+    noClasses = true
+    codeFences = true
+
+[menu]
+  [[menu.main]]
+    name = "blog"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "about"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "tags"
+    url = "/tags/"
+    weight = 3
