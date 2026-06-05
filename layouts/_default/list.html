@@ -1,0 +1,13 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<div class="article-list">
+  {{ range .Pages }}
+  <article>
+    <header>
+      <time datetime='{{ .Date.Format "2006-01-02" }}'>{{ .Date.Format (default "2006-01-02" .Site.Params.dateFormat) }}</time>
+      <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+    </header>
+  </article>
+  {{ end }}
+</div>
+{{ end }}
