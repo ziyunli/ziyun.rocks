@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Running OpenClaw in Vagrant"
 date: 2026-02-03
 ---

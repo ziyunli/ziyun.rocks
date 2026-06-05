@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Setting up Automatic1111"
 slug: setting-up-automatic1111
 date: 2023-06-14T18:03:16-07:00

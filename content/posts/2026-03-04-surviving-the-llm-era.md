@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Surviving the LLM Era as a Software Engineer"
 date: 2026-03-04
 ---

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Paper review: MapReduce"
 slug: review-mapreduce
 date: 2022-06-20

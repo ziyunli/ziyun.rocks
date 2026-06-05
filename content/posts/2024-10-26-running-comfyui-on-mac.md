@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Running ComfyUI on Mac"
 date: 2024-10-26T11:02:15-07:00
 slug: running-comfyui-on-mac

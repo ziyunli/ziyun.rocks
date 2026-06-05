@@ -2,7 +2,7 @@
 title: "Setup fastai in WSL2"
 slug: setup-fastai-in-wsl2
 date: 2022-09-21
-draft: false
+draft: true
 ---
 
 Steps to get PyTorch and fastai working with CUDA support in WSL2.

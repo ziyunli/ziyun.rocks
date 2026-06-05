@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Reboot my MacBook and some Ollama"
 slug: reboot-macbook-ollama
 date: 2024-11-22
